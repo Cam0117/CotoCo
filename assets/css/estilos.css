@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Monaco', sans-serif;
+    font-family: 'Monaco';
 }
 
 body{
@@ -33,8 +33,8 @@ main{
     padding: 10px 20px;
     display: flex;
     justify-content: center;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    /*-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);*/
     background-color: rgba(166, 118, 41, 0.5);
 
 }
