@@ -14,6 +14,18 @@ body{
     background-attachment: fixed;
 }
 
+header {
+    background-color: #755322;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 main{
     width: 100%;
     padding: 20px;
@@ -35,7 +47,7 @@ main{
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 128, 255, 0.5);
+    background-color: rgba(130, 96, 32, 0.776);
 
 }
 
@@ -75,7 +87,7 @@ main{
 
 .caja__trasera button:hover{
     background: #fff;
-    color: #46A2FD;
+    color: #755322;
 }
 
 /*Formularios*/
@@ -105,7 +117,7 @@ main{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #46A2FD;
+    color: #755322;
 }
 
 .contenedor__login-register form input{
@@ -123,7 +135,7 @@ main{
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #46A2FD;
+    background: #755322;
     font-weight: 600;
     cursor: pointer;
     color: white;
